@@ -1,4 +1,4 @@
-user_input = input("Enter name of your file in : ")
+user_input = input("Enter name of your file: ")
 file = open(user_input, 'w')
 text = input("Type a text : ")
 text = text.casefold()
